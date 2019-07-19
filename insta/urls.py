@@ -19,5 +19,6 @@ from django.urls import path,include
 from insta.views import HelloDjango
 
 urlpatterns = [
+    
     path('', HelloDjango.as_view(),name = 'home'),
 ]
